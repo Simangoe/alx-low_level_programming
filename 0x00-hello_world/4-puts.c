@@ -4,7 +4,7 @@
  * @void: No parameter 
 (* a blank line
 * Description: Print out the string Programming is like building a multilingual puzzle)?
-(* Str: Im not too sure)*
+(* Str: Im sure)*
 * Return: Return value set to zero
 */
 int main(void)
