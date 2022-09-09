@@ -1,11 +1,16 @@
 #include <stdio.h>
-/* This is a description */
+/**
+ * main - A function to print out a string
+ * @void: No parameter 
+(* a blank line
+* Description: Print out the string Programming is like building a multilingual puzzle)?
+(* Str: Im not too sure)*
+* Return: Return value set to zero
+*/
 int main(void)
-/* This is a description */
 {
-char str[] = "\"Programming is like building a multilingual puzzle";
+  char str[] = "\"Programming is like building a multilingual puzzle";
 
-puts(str);
-/* This is a description */
-return (0);
-}
+  puts(str);
+  return (0);
+};
