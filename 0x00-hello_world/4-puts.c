@@ -9,4 +9,4 @@ int main()
 
   puts(str);
   return (0);
-};
+}
