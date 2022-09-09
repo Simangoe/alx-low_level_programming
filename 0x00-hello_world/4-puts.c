@@ -2,11 +2,8 @@
 /**
  * main - A function to print out a string
  * @void: No parameter 
-(* a blank line
-* Description: Print out the string Programming is like building a multilingual puzzle)?
-(* Str: Im sure)*
-* Return: Return value set to zero
-*/
+ * Return: Return value set to zero [0]
+ */
 int main(void)
 {
   char str[] = "\"Programming is like building a multilingual puzzle";
