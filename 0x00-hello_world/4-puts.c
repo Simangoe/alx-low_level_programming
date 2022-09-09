@@ -1,8 +1,8 @@
 #include <stdio.h>
-int main(void) /*This program prints Programming is like building a multilingual puzzle*/
+int main(void) /*This program prints*/
 {
-    char str[] = "\"Programming is like building a multilingual puzzle";
-    
-    puts(str);
-    return (0);
+  char str[] = "\"Programming is like building a multilingual puzzle";
+
+  puts(str);
+  return (0);
 }
