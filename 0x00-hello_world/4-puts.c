@@ -1,19 +1,7 @@
 #include <stdio.h>
-
 /**
-
- * main - Entry point
-
- * 
-
- * Description: 'the program's description'
-
- * 
-
- * Return: Always 0 (Success)
-
- */
-
+* my_function - This is a description
+*/
 int main(void)
 {
 char str[] = "\"Programming is like building a multilingual puzzle";
