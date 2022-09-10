@@ -7,15 +7,10 @@
  */
 int main(void)
 {
-char a[] = "abcdefghijklmnopqrstuvwxyz";
-size_t i = 0, j = 0;
-size_t arrayLength = strlen(output);
+char i;
 
-for (i = 0 ; i < arrayLength ; i++)
-{
-putchar(output[i]);
-}
+for (i = 'a' ; i < 'z' ; i++)
+putchar(i);
 putchar('\n');
-}
 return (0);
 }
