@@ -7,16 +7,15 @@
  */
 int main(void)
 {
-char a = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm');
-char b = ('n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
+char a[] = "abcdefghijklmnopqrstuvwxyz";
+size_t i = 0, j = 0;
+size_t arrayLength = strlen(output);
 
-for (int c = 1; c <= 13; c++)
+for (i = 0 ; i < arrayLength ; i++)
 {
-putchar(a);
+putchar(output[i]);
 }
-for (int d = 1; d <= 13; d++)
-{
-putchar(b);
+putchar('\n');
 }
 return (0);
 }
