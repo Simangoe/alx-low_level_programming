@@ -3,7 +3,7 @@
  *main-start of function
  *Return: 0
  */
-int main (void)
+int main(void)
 {
 char a = 'a';
 int b = 10;
