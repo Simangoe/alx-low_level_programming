@@ -1,13 +1,2 @@
 #!/bin/bash
-echo '
-#include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-return (0);
-}
-' > $CFILE > gcc -S > ${CFILE}.s
+echo '#include <stdio.h>\n/**\n * main - Entry point\n *\n * Return: Always 0 (Success)\n */\nint main(void)\n{\nreturn (0);\n}' > $CFILE > gcc -S > ${CFILE}.s
