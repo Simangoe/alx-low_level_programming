@@ -1,2 +1,2 @@
 #!/bin/bash
-'#include <stdio.h>\n/**\n * main - Entry point\n *\n * Return: Always 0 (Success)\n */\nint main(void)\n{\nreturn (0);\n}' > $CFILE > gcc -S masm=intel > ${CFILE}.s
+gcc -S masm=intel $CFILE='#include <stdio.h>\n/**\n * main - Entry point\n *\n * Return: Always 0 (Success)\n */\nint main(void)\n{\nreturn (0);\n}' > ${CFILE}.s
