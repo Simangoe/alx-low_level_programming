@@ -6,13 +6,12 @@
 int main(void)
 {
 int i = '0';
-int j = 0;
-for (i = '0'; i <= '9'; i++)
+putchar(48);
+for (i = '1'; i <= '9'; i++)
 {
-putchar(i);
 putchar(44);
 putchar(32);
+putchar(i);
 }
-putchar(j);
 return (0);
 }
