@@ -11,8 +11,8 @@ for (i = '0'; i <= '9'; i++)
 {
 putchar(i);
 putchar(44);
-putchar(j);
 putchar(32);
 }
+putchar(j);
 return (0);
 }
