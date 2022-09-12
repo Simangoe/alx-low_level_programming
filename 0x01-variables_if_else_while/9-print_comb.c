@@ -1,21 +1,18 @@
-#include <stdlib.h>
 #include <stdio.h>
 /**
- * main - enter function to decide number sign
- * Return: return 0
+ * main - entry into the program
+ * Return: return 0 (success)
  */
 int main(void)
 {
-int i = 0;
-int j = 0;
-
-for (i = 0; i <= 9; i++)
+int i = '0';
+int j = '0';
+for (i = '0'; i <= '9'; i++)
+for (j = '0'; j <= '9';j++)
 {
-for (j = 0; j <= 9; j++)
-{
-printf("%d, %d", i, j);
+putchar(i);
+putchar(44);
+putchar(j);
+putchar(32);
 }
-printf(" ");
-}
-return (0);
 }
