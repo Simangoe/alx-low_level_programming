@@ -1,5 +1,4 @@
-int _putchar(int c)
-{
-putchar(c);
-return (0);
-}
+#ifndef MAIN_H_INCLUDED
+#define MAIN_H_INCLUDED
+int _putchar(int c);
+#endif
