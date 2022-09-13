@@ -4,7 +4,7 @@
  * main - entry
  * Return: returns 0 (success)
  */
-int main (void)
+int main(void)
 {
 _putchar(95);
 _putchar(112);
