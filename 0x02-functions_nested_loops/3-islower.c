@@ -7,13 +7,15 @@
  */
 int _islower(int c)
 {
+int a;
+
 if (_islower(c))
 {
-_putchar(49);
+a = 49;
 }
 else
 {
-_putchar(48);
+a = 48;
 }
-return (0);
+return (a);
 }
