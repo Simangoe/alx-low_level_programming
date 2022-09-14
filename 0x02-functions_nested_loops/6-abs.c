@@ -3,7 +3,7 @@
 /**
  * _abs - a function that computes the absolute value of an integer
  * @xy: integer input
- * Return: absolute value 
+ * Return: absolute value
  */
 int _abs(int xy)
 {
