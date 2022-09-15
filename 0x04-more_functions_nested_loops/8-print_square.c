@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_most_numbers - 10 times the numbers, from 0 to 14
- * no Parameter for the function to check
+ * print_square - Print a square of size
+ * @size: parameter for the function to check
  * Return: returns null type
  */
 void print_square(int size)
@@ -18,6 +18,5 @@ _putchar(35);
 _putchar(10);
 i++;
 }
-_putchar(10);
 return;
 }
