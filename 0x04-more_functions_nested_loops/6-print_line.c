@@ -7,7 +7,7 @@
  */
 void print_line(int n)
 {
-int a = 48;
+int a;
 while (a <= n && a > 0)
 {
 _putchar(95);
