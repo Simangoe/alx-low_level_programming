@@ -7,10 +7,10 @@
  */
 void print_line(int n)
 {
-int a = 0;
+int a = 48;
 while (a <= n && a > 0)
 {
-_putchar('_');
+_putchar(95);
 a++;
 }
 _putchar('\n');
