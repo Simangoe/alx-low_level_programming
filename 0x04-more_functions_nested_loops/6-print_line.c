@@ -10,9 +10,9 @@ void print_line(int n)
 int a;
 while (a <= n && a > 0)
 {
-putchar('_');
+_putchar('_');
 a++;
 }
-putchar('\n');
+_putchar('\n');
 return;
 }
