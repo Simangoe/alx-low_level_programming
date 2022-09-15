@@ -18,5 +18,6 @@ _putchar(35);
 _putchar(10);
 i++;
 }
+_putchar(10);
 return;
 }
