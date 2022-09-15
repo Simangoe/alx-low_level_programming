@@ -2,9 +2,8 @@
 /**
  * main - entry into program
  * no Parameter for the function to check
- * Return: returns 1 when successful
+ * Return: return 0 when successful
  */
-
 int main(void)
 {
 int i = 1;
@@ -24,5 +23,5 @@ printf("Buzz ");
 }
 }
 printf("\n");
-return (1);
+return (0);
 }
