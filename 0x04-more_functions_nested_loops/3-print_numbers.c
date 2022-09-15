@@ -5,7 +5,7 @@
  * no Parameter for the function to check
  * Return: returns null type
  */
-void print_numbers(void);
+void print_numbers(void)
 {
 int i = 0;
 for (i = 48; i <= 57; i++)
