@@ -10,7 +10,8 @@ void print_square(int size)
 int i = 1;
 while (i >= 1 && i <= size)
 {
-for (int j = 1; j <= size; j++)
+int j = 1;
+for (j = 1; j <= size; j++)
 {
 _putchar(35);
 }
