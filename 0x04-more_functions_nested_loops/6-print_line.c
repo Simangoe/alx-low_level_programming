@@ -13,6 +13,6 @@ while (a <= n && a > 0)
 _putchar(95);
 a++;
 }
-_putchar('\n');
+_putchar(10);
 return;
 }
