@@ -1,3 +1,4 @@
+void print_square(int size);
 void print_line(int n);
 int _isdigit(int c);
 int _putchar(int c);
