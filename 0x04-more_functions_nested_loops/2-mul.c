@@ -6,7 +6,7 @@
  * @c: Parameter for the function to check
  * Return: returns multiple of a and b
  */
-int mul(int a, int b);
+int mul(int a, int b)
 {
 int ret = a * b;
 return (ret);
