@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "mi_info.h"
+#include "main.h"
 /**
  * print_most_numbers - print numbers from 0 to 9 excluding 2 and 4
  * no Parameter for the function to check
