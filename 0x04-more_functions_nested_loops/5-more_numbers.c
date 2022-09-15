@@ -7,7 +7,7 @@
  */
 void more_numbers(void)
 {
-int a, i = 48, j = 57;
+int i;
 for (i = 48; i <= 57; i++)
 {
 _putchar(i);
