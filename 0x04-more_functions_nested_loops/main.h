@@ -1,3 +1,4 @@
+void print_line(int n);
 int _isdigit(int c);
 int _putchar(int c);
 int _isupper(int c);
