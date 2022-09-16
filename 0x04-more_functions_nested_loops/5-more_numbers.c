@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_most_numbers - 10 times the numbers, from 0 to 14
+ * more_numbers - 10 times the numbers, from 0 to 14
  * no Parameter for the function to check
  * Return: returns null type
  */

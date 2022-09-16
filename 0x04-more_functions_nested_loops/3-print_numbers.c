@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_number - print numbers from 0 to 9
+ * print_numbers - print numbers from 0 to 9
  * no Parameter for the function to check
  * Return: returns null type
  */

@@ -7,12 +7,13 @@
  */
 void print_line(int n)
 {
-int a;
-while (a <= n && a > 0)
+int a = 1;
+
+while (a <= n && a >= 1)
 {
-_putchar(95);
+putchar(95);
 a++;
 }
-_putchar(10);
+putchar(10);
 return;
 }
