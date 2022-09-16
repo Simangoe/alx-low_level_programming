@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _issuper - Checks for a digit (0 through 9)
- * @c: Parameter for the function to check
+ * _isdigit - checks for a digit (0 through 9)
+ * @c: parameter for the function to check
  * Return: returns 1 is success
  * returns 0 is fail
  */
