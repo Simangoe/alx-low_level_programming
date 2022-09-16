@@ -10,13 +10,12 @@ void more_numbers(void)
 int i, j;
 for (i = 48; i <= 57; i++)
 {
-putchar(i);
+_putchar(i);
 }
 for (j = 48; j <= 52; j++)
 {
-putchar(49);
-putchar(j);
+_putchar(49);
+_putchar(j);
 }
-putchar('\n');
 return;
 }
