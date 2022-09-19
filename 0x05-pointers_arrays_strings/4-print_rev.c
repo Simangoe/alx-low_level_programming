@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _print_rev - a function that prints a string
+ * print_rev - a function that prints a string
  * @s: string input
  * Return: string
  */
 void print_rev(char *s)
 {
 int i;
- for (i = '\0'; s[i] > 0; --i)
+for (i = _strlen(s) - 1; i >= 0; i--)
 {
-_putchar(s[i]);
+_putchar(*(s + i));
 }
 _putchar('\n');
 }
