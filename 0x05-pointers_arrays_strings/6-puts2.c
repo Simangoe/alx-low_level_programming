@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_strlen.c"
 #include <stdio.h>
 /**
  * puts2 - puts string twice
