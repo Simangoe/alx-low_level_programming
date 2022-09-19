@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#include "2-strlen.c"
 /**
  * print_rev - a function that prints a string
  * @s: string input
