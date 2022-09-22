@@ -8,10 +8,15 @@
  */
 char *string_toupper(char *x)
 {
-while (*x)
+int i;
+int y = strlen(x);
+
+for (i = 1; i < y; i++)
 {
-*x = (islower(*x))? *x-32: *x;
-x++;
+if (isalpha(x[i]))
+{
+x[i] = toupper(x[i]);
+}
 }
 return (x);
 }
