@@ -33,10 +33,6 @@ else if (isalpha(x[i]) == 108)
 {
 x[i] = 49;
 }
-else
-{
-x[i];
-}
 }
 return x;
 }
