@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 /**
  * string_toupper - function to reverse an array
  * @x: number of elements in array
@@ -7,8 +8,6 @@
  */
 char *string_toupper(char *x)
 {
-int i;
-
 while (*x)
 {
 *x = (islower(*x))? *x-32: *x;
