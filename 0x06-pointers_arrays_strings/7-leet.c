@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <ctype.h>
 /**
- * cap_string - function to capitalise first letter
+ * leet - function to encode
  * @x: string to capitalise first letter
  * Return: return character string
  */
