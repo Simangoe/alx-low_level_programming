@@ -4,8 +4,7 @@
  * _strcmp - function that compares two strings
  * @s1: string to compare
  * @s2: string to compare
- * Return: Returns 0, a positive or a negative number
- * 0 when there is no difference, negative when s1 is smaller and positive when s1 is bigger
+ * Return: Returns 0
  */
 int _strcmp(char *s1, char *s2)
 {
