@@ -8,18 +8,16 @@
  */
 void reverse_array(int *a, int n)
 {
-int i;
+  int i;
+  int b[n];
 
-i = 0;
-while (i < n)
+for (i = 0; i < n; i++)
 {
-if (i != 0)
+b[i] = a[n - i - 1];
+}
+for (i = 0; i < n; i++)
 {
-printf(", ");
+a[i] = b[i];
 }
-printf("%d", a[n - i - 1]);
-i++;
-}
-printf("\n");
 return;
 }
