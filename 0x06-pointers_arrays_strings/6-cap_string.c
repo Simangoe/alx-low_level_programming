@@ -13,7 +13,7 @@ int y = strlen(x);
 
 for (i = 1; i < y; i++)
 {
-if (isalpha(x[i]) && (x[i-1] == ' ' || x[i-1] == '\n' || x[i-1] == '\t' || x[i-1] == '.'))
+if (isalpha(x[i]) && ((x[i-1] == ' ') || (x[i-1] == '\n') || (x[i-1] == '\t') || (x[i-1] == '.')))
 {
 x[i] = toupper(x[i]);
 }
