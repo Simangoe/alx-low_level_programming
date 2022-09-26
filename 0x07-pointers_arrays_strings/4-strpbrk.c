@@ -16,8 +16,8 @@ for (i = 0; i <= strlenofs; i++)
 {
 if (s[i] == accept[i])
 {
-return (&s[i - 1]);
 break;
 }
 }
+return (&s[i - 1]);
 }
