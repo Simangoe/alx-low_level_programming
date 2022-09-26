@@ -19,5 +19,5 @@ unsigned int _strspn(char *s, char *accept)
 	    }
 	}
         }
-  return (sizeof(accumulate));
+  return (sizeof(accumulate) - 3);
 }
