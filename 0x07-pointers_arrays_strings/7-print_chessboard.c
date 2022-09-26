@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-#include "_putchar.c"
+#include "main.h"
 /**
  * print_chessboard - prints the chessboard
  *
