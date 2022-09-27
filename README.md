@@ -1,2 +1,1 @@
-# alx-low_level_programming
-ALX tutorial for C Programming
+Hello,\nThis directory contains the assignment projects for the ALX pointers, arrays and strings topics.
