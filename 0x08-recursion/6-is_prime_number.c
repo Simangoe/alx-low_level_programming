@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <string.h>
 /**
  * helper - does it for me
  * @i: helper int
@@ -9,7 +11,7 @@ int helper(int i, int n)
 if (n % i == 0 && n != i)
 return (0);
 if (n % i != 0 && i < n)
-eturn (helper(i + 1, n));
+return (helper(i + 1, n));
 return (1);
 }
 /**
