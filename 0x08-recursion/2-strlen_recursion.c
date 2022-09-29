@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * _find_strlen - function that counts characters in a string
- * @counter: incrementer
+ * find_strlen - function that counts characters in a string
+ * @count: incrementer
  * @s: string to count from
  * Return: returns number of letters in a string
  */
