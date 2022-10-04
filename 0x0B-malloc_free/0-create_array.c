@@ -21,4 +21,5 @@ if (size > 0)
 return (arr);
 }
 return (NULL);
+free(arr);
 }
