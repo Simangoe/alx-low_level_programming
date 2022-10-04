@@ -19,6 +19,8 @@ if (str != NULL)
 {
 lengthofstr = strlen(str) + 1;
 cpy = (char *)malloc(lengthofstr * sizeof(char));
+if (cpy != NULL)
+{
 for (i = 0; i < lengthofstr; i++)
 {
 cpy[i] = str[i];
@@ -26,8 +28,7 @@ cpy[i] = str[i];
 return (cpy);
 free(cpy);
 }
-else
-{
 return (NULL);
 }
+return (NULL);
 }
