@@ -18,7 +18,7 @@ int i;
 if (str != NULL)
 {
 lengthofstr = strlen(str) + 1;
-cpy = (char *)malloc(lengthofstr * sizeof(char));
+cpy = (char *)malloc(lengthofstr *sizeof(char));
 if (cpy != NULL)
 {
 for (i = 0; i < lengthofstr; i++)
