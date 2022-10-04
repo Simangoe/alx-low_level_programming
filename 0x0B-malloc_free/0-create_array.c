@@ -10,22 +10,14 @@
 char *create_array(unsigned int size, char c)
 {
 unsigned int i = 0;
-char *arr;
+char *arr = (char *)malloc(size * sizeof(char));
 
-if ((char *)malloc(size * sizeof(char)) != NULL)
+if (arr != NULL && arr > 0)
 {
-arr = (char *)malloc(size * sizeof(char));
-}
-else
-{
-return (NULL);
-}
 for (i = 0; i < (size); i++)
 {
 arr[i] = c;
 }
-if (size > 0)
-{
 return (arr);
 }
 else
