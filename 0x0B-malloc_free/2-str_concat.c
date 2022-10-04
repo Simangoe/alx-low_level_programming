@@ -20,7 +20,7 @@ int i, j = 0;
 (s1 == NULL) ? (s1 = "", lenofs1 = 0) : (lenofs1 = strlen(s1));
 (s2 == NULL) ? (s2 = "", lenofs2 = 0) : (lenofs2 = strlen(s2));
 lenofs12 = lenofs1 + lenofs2 - 1;
-concat = (char *)malloc((lenofs1 + lenofs2) * sizeof(char));
+concat = (char *)malloc((lenofs1 + lenofs2 + 1) * sizeof(char));
 if (concat != NULL)
 {
 for (i = 0; i < lenofs1; i++)
