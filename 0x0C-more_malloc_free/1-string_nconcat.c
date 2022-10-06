@@ -22,7 +22,6 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-n < strlen(s2)? printf("n < strlen s2\n"): printf("n > strlen s2\n");
 sizeof(char) * (strlen(s1) + strlen(s2) + 1);
 n < strlen(s2)? a = sizeof(char) * strlen(s1) + n + 1:
 sizeof(char) * (strlen(s1) + strlen(s2) + 1);
