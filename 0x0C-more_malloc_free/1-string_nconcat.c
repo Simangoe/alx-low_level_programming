@@ -22,10 +22,16 @@ if (s2 == NULL)
 {
 s2 = "";
 }
-sizeof(char) * (strlen(s1) + strlen(s2) + 1);
-n < strlen(s2)? a = sizeof(char) * strlen(s1) + n + 1:
-sizeof(char) * (strlen(s1) + strlen(s2) + 1);
-n < strlen(s2)? c = strlen(s1) + n + 1: strlen(s1) + strlen(s2) + 1;
+if (n < strlen(s2))
+{
+a = sizeof(char) * strlen(s1) + n + 1;
+c = strlen(s1) + n + 1;
+}
+else
+{
+a = sizeof(char) * (strlen(s1) + strlen(s2) + 1);
+c = strlen(s1) + strlen(s2) + 1;
+}
 strcn = malloc(a);
 if (strcn != NULL)
 {
