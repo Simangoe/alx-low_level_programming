@@ -19,8 +19,10 @@ if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
 s2 = "";
-for (len1 = 0; s1[len1] != '\0'; len1++);
-for (len2 = 0; s2[len2] != '\0'; len2++);
+for (len1 = 0; s1[len1] != '\0'; len1++)
+;
+for (len2 = 0; s2[len2] != '\0'; len2++)
+;
 if (sign >= len2)
 {
 sign = len2;
