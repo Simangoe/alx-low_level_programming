@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
 #include <string.h>
 /**
@@ -37,18 +36,14 @@ if (strcn != NULL)
 {
 for (i = 0; i <= strlen(s1); i++)
 {
-strcn[i] = s1[i]; 
+strcn[i] = s1[i];
 }
 for (i = strlen(s1); i < c; i++, j++)
 {
 if (i < c - 1)
-{
 strcn[i] = s2[j];
-}
 else
-{
 strcn[i] = '\0';
-}
 }
 return (strcn);
 free(strcn);
