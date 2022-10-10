@@ -1,21 +1,18 @@
-/*
- * File: 5-free_dog.c
- * Auth: Brennan D Baraban
- */
-
-#include "dog.h"
 #include <stdlib.h>
+#include "dog.h"
 
 /**
- * free_dog - Frees dogs.
- * @d: The dog to be freed.
+ * free_dog - ...
+ * @d: ...
+ *
+ * Return: ...
  */
 void free_dog(dog_t *d)
 {
-  if (d == NULL)
-    return;
-
-  free(d->owner);
-  free(d->name);
-  free(d);
+  if (d != NULL)
+    {
+      free(d->owner);
+      free(d->name);
+      free(d);
+    }
 }
