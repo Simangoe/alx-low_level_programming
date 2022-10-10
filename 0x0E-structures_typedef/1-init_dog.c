@@ -1,4 +1,4 @@
-/**
+/*
  * File: 1-init_dog.c
  * Auth: Brennan D Baraban
  */
