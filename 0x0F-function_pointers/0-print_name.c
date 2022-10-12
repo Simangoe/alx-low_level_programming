@@ -1,4 +1,5 @@
 #include <stdio.h>
+void print_name_as_is(char *name);
 /**
  * print_name - print name
  * @name: name to print
