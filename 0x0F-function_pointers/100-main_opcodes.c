@@ -1,6 +1,11 @@
+#ifndef UDIS86_H
+#define UDIS86_H
+
 #include <stdio.h>
 #include <stdlib.h>
-#include <udis86.h>
+#include "udis86.h"
+
+#endif
 /**
  * main - ...
  * @argc: ...
