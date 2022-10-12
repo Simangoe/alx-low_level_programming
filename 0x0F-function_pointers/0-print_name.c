@@ -1,5 +1,12 @@
 #include <stdio.h>
-void print_name_as_is(char *name);
+/**
+ * helper_fun - called when function in main is empty                         
+ * @name: name to print
+ */
+void helper_fun(char *name)
+{
+  printf("Hello, my name is %s\n", name);
+}
 /**
  * print_name - print name
  * @name: name to print
@@ -8,12 +15,12 @@ void print_name_as_is(char *name);
  */
 void print_name(char *name, void (*f)(char *))
 {
-if (f != NULL)
-{
-f(name);
-}
-else
-{
-print_name_as_is(name);
-}
+  if (f != NULL)
+    {
+      f(name);
+    }
+  else
+    {
+      helper_fun(name);
+    }
 }
