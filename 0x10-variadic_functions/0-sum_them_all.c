@@ -18,7 +18,6 @@ for (i = 0; i < n; i++)
 {
 value = value + va_arg(args, int);
 }
-va_end(args);
 return (value);
 }
 return (0);
